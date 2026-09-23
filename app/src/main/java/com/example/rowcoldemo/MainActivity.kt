@@ -50,7 +50,11 @@ fun TextCell(text: String, modifier: Modifier = Modifier) {
 
 @Composable
 fun MainScreen(modifier: Modifier = Modifier) {
-
+    Row(modifier) {
+        TextCell("1")
+        TextCell("2")
+        TextCell("3")
+    }
 }
 
 @Preview(showBackground = true)
