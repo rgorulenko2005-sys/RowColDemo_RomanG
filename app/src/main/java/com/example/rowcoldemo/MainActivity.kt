@@ -73,7 +73,7 @@ fun MainScreen(modifier: Modifier = Modifier) {
         Row {
             TextCell("9")
             TextCell("10")
-            TextCell("11")
+            TextCell("1l")
         }
     }
 }
